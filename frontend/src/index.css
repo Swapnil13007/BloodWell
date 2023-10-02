@@ -33,6 +33,10 @@ body {
   justify-content: space-between;
 }
 
+a {
+  text-decoration: none;
+}
+
 .text__primary {
   color: var(--color__dark);
   font-size: 5rem;

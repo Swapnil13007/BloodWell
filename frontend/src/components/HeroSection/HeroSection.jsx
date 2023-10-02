@@ -12,9 +12,9 @@ const HeroSection = () => {
           nothing but it will save a life. Donate Blood to give back life.
         </div>
 
-        <button className={`btn btn--primary ${classes.hero__btn}`} type="button">
+        <a href="#signUp" className={`btn btn--primary ${classes.hero__btn}`} type="button">
           Donate Now!
-        </button>
+        </a>
       </div>
       <div className={classes.hero__image}>
         <div className={classes.mask}></div>
